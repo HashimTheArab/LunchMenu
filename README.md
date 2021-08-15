@@ -9,4 +9,4 @@ You can't see all the options at once which is inconvenient.
     my school you're able to use this.
 
 # Display
-todo: insert image here
+![breakfast](https://user-images.githubusercontent.com/13991048/129470955-0827ed1e-4ffe-46f7-8cf0-1b24e27f87dc.png)
