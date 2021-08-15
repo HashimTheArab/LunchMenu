@@ -5,8 +5,7 @@ use std::io;
 use std::io::Write;
 
 fn main() {
-    println!("Select an option:\n[1] Breakfast\n[2] Lunch");
-    print!("[?]: ");
+    print!("Select an option:\n[1] Breakfast\n[2] Lunch\n[?]: ");
     io::stdout().flush().expect("Error flushing stdout");
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Failed to get input");
