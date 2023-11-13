@@ -21,7 +21,7 @@ fn main() {
 }
 
 fn print_menu(meal_type: String) {
-    let html = reqwest::blocking::get("").unwrap(); // if you goto my school just put the lunch menu url inside the quotes
+    let html = reqwest::blocking::get("https://www.concordschools.com/o/chs/dining").unwrap();
     let mut week: usize = 0;
     let mut table: Table = Table::new();
     table.set_format(*format::consts::FORMAT_BOX_CHARS);
